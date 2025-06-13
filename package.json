@@ -69,5 +69,5 @@
   }
 }
 "scripts": {
-  "buildstatic": "next build && next export"
+  "build:static": "next build && next export"
 }
