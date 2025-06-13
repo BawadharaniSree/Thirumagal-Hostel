@@ -1,0 +1,10 @@
+services:
+  - type: static
+    name: thirumagal-hostel-site
+    env: node
+    buildCommand: npm run buildstatic
+    staticPublishPath: out
+    branch: main
+    buildFilter:
+      paths:
+        - "**/*"
