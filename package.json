@@ -68,3 +68,6 @@
     "typescript": "^5"
   }
 }
+"scripts": {
+  "build:static": "next build && next export"
+}
